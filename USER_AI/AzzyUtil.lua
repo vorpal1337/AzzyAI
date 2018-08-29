@@ -2198,7 +2198,7 @@ function	GetSOwnerBuffSkill(myid)
 			skillopt=UseEiraOveredBoost
 		elseif	(htype==DIETER and UseDieterPyroclastic~=0) then
 			skill=MH_PYROCLASTIC
-			level = 5
+			level = SkillList[DIETER][MH_PYROCLASTIC]
 			skillopt=UseDieterPyroclastic
 		end
 		return skill,level,skillopt
@@ -2311,7 +2311,7 @@ function	GetDefensiveOwnerSkill(myid)
 	local skillopt = 0
 	if (IsHomun(myid)==1) then
 		if GetV(V_HOMUNTYPE,MyID)==SERA and UseSeraPainkiller~=0 then
-			level=5
+			level=SkillList[SERA][MH_PAIN_KILLER]
 			return MH_PAIN_KILLER,level,UseSeraPainkiller
 		else
 			return 0,0,0
