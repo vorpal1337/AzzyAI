@@ -13,7 +13,7 @@ function	GetMsg (id) end
 function	GetResMsg (id) end
 function	SkillObject (id,level,skill,target) end
 function	SkillGround (id,level,skill,x,y) end
-function	IsMonster (id) end								-- id´Â ¸ó½ºÅÍÀÎ°¡? yes -> 1 no -> 0
+function	IsMonster (id) end								-- idï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Î°ï¿½? yes -> 1 no -> 0
 
 --]]
 --GetV() first argument--
@@ -432,6 +432,7 @@ SightTimeout			= 0
 SOffensiveTimeout		= 0
 SDefensiveTimeout		= 0
 SOwnerBuffTimeout		= 0
+SOwnerSecondaryBuffTimeout		= 0
 SkillTimeout			= 0
 ProvokeOwnerTimeout		= 0
 ProvokeSelfTimeout		= 0

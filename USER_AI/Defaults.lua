@@ -114,6 +114,7 @@ UseBayeriGoldenPherze	=0
 UseDieterMagmaFlow	=0
 UseDieterGraniticArmor	=0
 UseDieterPyroclastic	=0
+UseDieterTempering	=0
 UseEiraOveredBoost		=0
 
 --AutoHeal Options:

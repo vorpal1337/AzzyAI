@@ -2197,9 +2197,9 @@ function	GetSOwnerBuffSkill(myid)
 			level = 5
 			skillopt=UseEiraOveredBoost
 		elseif	(htype==DIETER and UseDieterPyroclastic~=0) then
-			skill=MH_PYROCLASTIC
+			skill = MH_PYROCLASTIC
 			level = SkillList[DIETER][MH_PYROCLASTIC]
-			skillopt=UseDieterPyroclastic
+			skillopt = UseDieterPyroclastic
 		end
 		return skill,level,skillopt
 	else
@@ -2210,6 +2210,22 @@ function	GetSOwnerBuffSkill(myid)
 			level=0
 		end
 		return skill,level,UseIncAgiSelf
+	end
+	return 0,0,0
+end
+
+function	GetSOwnerSecondaryBuffSkill(myid)
+	local level = 0
+	local skill = 0
+	local skillopt = 0
+	if (IsHomun(myid)==1) then
+		htype=GetV(V_HOMUNTYPE,myid)
+		if	(htype==DIETER and useDieterTempering~=0) then
+			skill = MH_TEMPERING
+			level = SkillList[DIETER][MH_TEMPERING]
+			skillopt = UseDieterTempering
+		end
+		return skill,level,skillopt
 	end
 	return 0,0,0
 end
