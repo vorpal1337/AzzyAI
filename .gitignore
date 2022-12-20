@@ -6,4 +6,5 @@
 
 #ignore time-keeping files
 H_*.txt
+test.txt
 *Timeouts.lua

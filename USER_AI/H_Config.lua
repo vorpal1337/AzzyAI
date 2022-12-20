@@ -1,6 +1,6 @@
 AggroHP                  = 0
 AggroSP                  = 0
-OldHomunType             = 3
+OldHomunType             = 2
 UseSkillOnly             = 0 
 UseAttackSkill           = 1
 OpportunisticTargeting   = 0
