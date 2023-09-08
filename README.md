@@ -42,6 +42,7 @@ This includes the following skills:
 Addionally, with the arrival of 4th jobs and new homunculus skills, the following new skills have been added:
  - Dieter
    - Tempering
+   - Blast Forge (Thanks to [vorpal1337](https://github.com/vorpal1337))
    
 ## Disclaimer ##
 Certain functionality may not work as expected or not at all due to the declining support of AIs in newer clients, backup your current AI in any case before applying. Feel free to open issues if you find bugs. **Pull-requests are welcome!**
