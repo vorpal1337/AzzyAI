@@ -44,6 +44,7 @@ EleanorSilverveinLevel   = 10
 EleanorMidnightLevel     = 10
 UseDieterLavaSlide       = 0 
 UseDieterVolcanicAsh	 = 0
+UseDieterBlastForge      = 0
 DieterLavaSlideLevel     = 10
 UseDefensiveBuff         = 1
 UseOffensiveBuff         = 1 

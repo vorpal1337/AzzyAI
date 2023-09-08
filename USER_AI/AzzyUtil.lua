@@ -1774,7 +1774,10 @@ function GetSAtkSkill(myid)
 	if (IsHomun(myid)==1) then
 		htype=GetV(V_HOMUNTYPE,myid)
 		if htype > 47 then -- it's a Homun S
-			if htype==EIRA and UseEiraEraseCutter==1 then
+			if htype==DIETER and UseDieterBlastForge==1 then
+				skill=MH_BLAST_FORGE
+				level=SkillList[DIETER][MH_BLAST_FORGE ]
+			elseif htype==EIRA and UseEiraEraseCutter==1 then
 				skill=MH_ERASER_CUTTER
 				if EiraEraseCutterLevel==nil then
 					level=4
