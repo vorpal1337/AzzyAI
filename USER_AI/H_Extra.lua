@@ -49,3 +49,6 @@ Dr. Azzy takes no responsibility for your lua programming; I barely take respons
 
 --Uncomment this line to suppress AAI_ERROR logging. This should only be done as a stop-gap measure; if your AAI_ERROR log is filling up with messages, please report this to the developer. 
 --LogEnable["AAI_ERROR"]=0
+
+-- Adjust the Dieter Blast Forge delay to avoid casting it while the previous one is up: only 1 Blast Forge can be up at a time, and it does not refresh the duration when re-cast, so an early re-cast is a waste.
+SkillInfo[MH_BLAST_FORGE][6]={2000,2000,2000,2000,2000,2000,2000,2000,2000,2000}
